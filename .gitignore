@@ -12,7 +12,7 @@ xcuserdata
 /platform/node/test/actual
 /platform/node/test/diff
 /mason_packages
-/build
+/build*
 /next/build
 /lib
 /test/node_modules
@@ -65,3 +65,4 @@ mapbox-gl-native.code-workspace
 /scripts/generate-file-lists.list
 /scripts/generate-shaders.list
 /scripts/generate-style-code.list
+CMakeLists.txt.user

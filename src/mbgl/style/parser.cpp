@@ -192,7 +192,12 @@ void Parser::parseLayers(const JSValue& value) {
             Log::Warning(Event::ParseStyle, "duplicate layer id %s", layerID.c_str());
             continue;
         }
-
+        //debug
+        // if(layerID != "land" && layerID != "road-primary" && layerID != "settlement-label" && layerID != "poi-label")
+        // {
+        //     continue;
+        // }
+        //debug
         layersMap.emplace(layerID, std::pair<const JSValue&, std::unique_ptr<Layer>> { layerValue, nullptr });
         ids.push_back(layerID);
     }
