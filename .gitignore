@@ -66,3 +66,4 @@ mapbox-gl-native.code-workspace
 /scripts/generate-shaders.list
 /scripts/generate-style-code.list
 CMakeLists.txt.user
+.vs_clangd
